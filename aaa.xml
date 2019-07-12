@@ -1,0 +1,2365 @@
+<java version="1.7.0_79" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>fd_373c0c03939866</string>
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>id</string>
+     <string>166ecbdb412a2d96d8d5e93449399212</string>
+    </void>
+    <void method="put">
+     <string>name</string>
+     <string>PDBG-业务专员</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_373c0c0b7212ba</string>
+   <object class="java.util.Date">
+    <long>1557915082312</long>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_373bc8ca062a22_index_</string>
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>fd_373d65117b9790</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373bcc31e27eea</string>
+     <double>0.01</double>
+    </void>
+    <void method="put">
+     <string>fd_37430a6af84970</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373cc6ffe3ef18</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_37430a7c62679c</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373bcc5aeb2708</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_374315bf1db668</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_37430a73f0bfe2</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_37431debeec6ce</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_374315f3571974</string>
+     <double>0.01</double>
+    </void>
+    <void method="put">
+     <string>fd_373bca88570034</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373e4c15781d32</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_37430a73f0bfe2_text</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_37430a5a7c159c</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_3743160125ba7e</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373e4c5ce04c96</string>
+     <string>2019年</string>
+    </void>
+    <void method="put">
+     <string>fd_373bcb1074c068</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_373bcabd65597a</string>
+     <null/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_373e2fb22de3be</string>
+   <double>26500.0</double>
+  </void>
+  <void method="put">
+   <string>fd_373e351d92fe9a</string>
+   <double>14469.0</double>
+  </void>
+  <void method="put">
+   <string>fd_373714ecef3e46_index_</string>
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>fd_373e4b4fa8dafc</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373716f15e0780</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_374315688d3178</string>
+     <double>0.01</double>
+    </void>
+    <void method="put">
+     <string>fd_373721249e8b80</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_373e2f64c05000</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_3743154cc90f0c</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_373e2bfd0098de</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373e4b4e6d2e24</string>
+     <string>2019年</string>
+    </void>
+    <void method="put">
+     <string>fd_373715a0fbf3f8</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373722cd7354e6</string>
+     <double>0.01</double>
+    </void>
+    <void method="put">
+     <string>fd_373e2f964ee640</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_37431576d16e58</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_373ca46c5d3e6a</string>
+     <null/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_373bc8ca062a22</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c456dc143285a20364fca8d5ea</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>谭孝龙</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1556035200000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>工商</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>谭孝龙</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a8daa224cbdeb2852245c40f88829f</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6212264000009353497</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>400.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45858e54492f58264ec8b6cdc</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>赖慧峰</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1555776000000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>平安银行 </string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>赖慧峰</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a8fd503ffdfbc41855d5a4f5d988c6</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000015187292 </string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>155.2</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45858e54492f58264ec8b6cdc</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>赖慧峰</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1555862400000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>平安银行 </string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.01</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>赖慧峰</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a8fd503ffae99b4ac7d91499ba985c</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000015187292 </string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>1631.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c40e6d9ad4ed618614fcfab213</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>程志</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1555776000000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>程志</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a8fd503ff59cee4e65b4c42f5979c3</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000014195676</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>507.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c40e6d9ad4ed618614fcfab213</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>程志</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1556380800000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.02</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>程志</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a8fd5040040ceb8b545f34c73ad712</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000014195676</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>2494.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c40e6d9ad4ed618614fcfab213</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>程志</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1555689600000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.04</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>程志</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a8fd5040089edb3fd8539473cbf7d8</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000014195676</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>4100.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c40e6d9ad4ed618614fcfab213</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>程志</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1556208000000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>程志</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a8fd50401fa89b16c5666410c8bbc6</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000014195676</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>271.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45753498e1f0b9e84104aab52</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>王勇</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1554220800000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>深圳观澜支行 </string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>王勇</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a91fd31f03890e55f01c64bb0b6ef1</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000132994273 </string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>74.8</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45753498e1f0b9e84104aab52</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>王勇</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1555862400000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>深圳观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.01</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>王勇</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a91fd31f108ba3440951d47c1aed7f</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000132994273</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>1113.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45753498e1f0b9e84104aab52</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>王勇</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1556294400000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>深圳观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>王勇</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a91fd31f1f90003c05ddf48a0ba1e5</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6230580000132994273</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>362.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c457d4568ee6792d64dd29dd85</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>梁剑</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1554825600000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.01</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>梁剑</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a9738120b5c2f6127730046f781892</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6212264000074116340</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>820.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c457d4568ee6792d64dd29dd85</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>梁剑</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1555084800000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.01</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>梁剑</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a9738120cabc4deafc7974a1cbad62</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6212264000074116340</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>785.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c457d4568ee6792d64dd29dd85</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>梁剑</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1555171200000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.01</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>梁剑</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a9738120cb50acd3961114a65a2da7</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6212264000074116340</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>765.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c457d4568ee6792d64dd29dd85</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>梁剑</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1556035200000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.01</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>梁剑</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a9738120c7db79bf205f348b58a6ea</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6212264000074116340</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>762.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_373d65117b9790</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c457d4568ee6792d64dd29dd85</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>梁剑</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc31e27eea</string>
+       <double>1.148140661E7</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a6af84970</string>
+       <object class="java.util.Date">
+        <long>1556467200000</long>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373cc6ffe3ef18</string>
+       <string>观澜支行</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a7c62679c</string>
+       <object class="java.math.BigDecimal">
+        <string>0.00</string>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373bcc5aeb2708</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_374315bf1db668</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37431debeec6ce</string>
+       <string>梁剑</string>
+      </void>
+      <void method="put">
+       <string>fd_374315f3571974</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a9738120d702d6a6ccd8d413984eea</string>
+      </void>
+      <void method="put">
+       <string>fd_373bca88570034</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4c15781d32</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a73f0bfe2_text</string>
+       <string>转账/现金</string>
+      </void>
+      <void method="put">
+       <string>fd_37430a5a7c159c</string>
+       <string>6212264000074116340</string>
+      </void>
+      <void method="put">
+       <string>fd_3743160125ba7e</string>
+       <double>0.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4c5ce04c96</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373bcb1074c068</string>
+       <double>229.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373bcabd65597a</string>
+       <string></string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_37418471b239d4</string>
+   <double>0.0</double>
+  </void>
+  <void method="put">
+   <string>fd_373c0bf271de26</string>
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>id</string>
+     <string>1672a1c45858e54492f58264ec8b6cdc</string>
+    </void>
+    <void method="put">
+     <string>name</string>
+     <string>赖慧峰</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_3743154ea0d3c8</string>
+   <double>339200.0</double>
+  </void>
+  <void method="put">
+   <string>fd_373c0bfc532a78</string>
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>id</string>
+     <string>166ec179b2f1835cfa0864948dab265f</string>
+    </void>
+    <void method="put">
+     <string>name</string>
+     <string>深圳佰瑞兴_运营管理中心_精密模切事业部_PDBG业务组</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_373c0c155d1ca8</string>
+   <string>YWYB20190420002</string>
+  </void>
+  <void method="put">
+   <string>fd_373f17790d3c2a</string>
+   <double>26500.0</double>
+  </void>
+  <void method="put">
+   <string>fd_374315c17e148e</string>
+   <double>0.0</double>
+  </void>
+  <void method="put">
+   <string>fd_373714ecef3e46</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_374315688d3178</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_3743154cc90f0c</string>
+       <double>47700.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373715a0fbf3f8</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373722cd7354e6</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f964ee640</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>166ecbdb412a2d96d8d5e93449399212</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>PDBG-业务专员</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37431576d16e58</string>
+       <double>0.04</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4fa8dafc</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373716f15e0780</string>
+       <double>0.04</double>
+      </void>
+      <void method="put">
+       <string>fd_373721249e8b80</string>
+       <double>4000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f64c05000</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45858e54492f58264ec8b6cdc</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>赖慧峰</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373e2bfd0098de</string>
+       <string>亚马逊、SONOS、代工厂客户</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a3a4e3bc1e6b0f1caea6140bc8e264</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4e6d2e24</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373ca46c5d3e6a</string>
+       <string>2</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_374315688d3178</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_3743154cc90f0c</string>
+       <double>120000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373715a0fbf3f8</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373722cd7354e6</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f964ee640</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>166ecbdb40826eda8cf2faa415382f2f</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>PDBG-总监</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37431576d16e58</string>
+       <double>0.1</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4fa8dafc</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373716f15e0780</string>
+       <double>0.11</double>
+      </void>
+      <void method="put">
+       <string>fd_373721249e8b80</string>
+       <double>10000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f64c05000</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c40e6d9ad4ed618614fcfab213</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>程志</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373e2bfd0098de</string>
+       <string>亚马逊、SONOS客户</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a3a50b4c45c915552d7ce47a2b0cc1</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4e6d2e24</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373ca46c5d3e6a</string>
+       <string>2</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_374315688d3178</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_3743154cc90f0c</string>
+       <double>117000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373715a0fbf3f8</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373722cd7354e6</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f964ee640</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>166ecbdb40c2825470e59854ae4a95b3</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>PDBG-业务经理</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37431576d16e58</string>
+       <double>0.1</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4fa8dafc</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373716f15e0780</string>
+       <double>0.09</double>
+      </void>
+      <void method="put">
+       <string>fd_373721249e8b80</string>
+       <double>8000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f64c05000</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c457d4568ee6792d64dd29dd85</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>梁剑</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373e2bfd0098de</string>
+       <string>亚马逊、SONOS、代工厂客户</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a3a531739378be76b355b4bd28d0a5</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4e6d2e24</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373ca46c5d3e6a</string>
+       <string>2</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_374315688d3178</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_3743154cc90f0c</string>
+       <double>34000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373715a0fbf3f8</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373722cd7354e6</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f964ee640</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>16729b94cc49cf8eb3b78494ad282aa2</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>PDBG-项目经理</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37431576d16e58</string>
+       <double>0.03</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4fa8dafc</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373716f15e0780</string>
+       <double>0.03</double>
+      </void>
+      <void method="put">
+       <string>fd_373721249e8b80</string>
+       <double>2500.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f64c05000</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45753498e1f0b9e84104aab52</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>王勇</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373e2bfd0098de</string>
+       <string>亚马逊客户</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a3a56b896a50099b255ca4d2fbd1ca</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4e6d2e24</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373ca46c5d3e6a</string>
+       <string>2</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_374315688d3178</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_3743154cc90f0c</string>
+       <double>20500.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373715a0fbf3f8</string>
+       <string>30601-业务费用-业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_373722cd7354e6</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f964ee640</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>16729b94cc49cf8eb3b78494ad282aa2</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>PDBG-项目经理</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37431576d16e58</string>
+       <double>0.02</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4fa8dafc</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373716f15e0780</string>
+       <double>0.02</double>
+      </void>
+      <void method="put">
+       <string>fd_373721249e8b80</string>
+       <double>2000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e2f64c05000</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c456dc143285a20364fca8d5ea</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>谭孝龙</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_373e2bfd0098de</string>
+       <string>亚马逊客户</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a3a5bac1295870b6ddd074f07b1972</string>
+      </void>
+      <void method="put">
+       <string>fd_373e4b4e6d2e24</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fd_373ca46c5d3e6a</string>
+       <string>2</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_37372851dc7648</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_37373b877fafba</string>
+       <double>0.04</double>
+      </void>
+      <void method="put">
+       <string>fd_373728cc2778da</string>
+       <string>同意</string>
+      </void>
+      <void method="put">
+       <string>fd_3741846f60b456</string>
+       <double>47700.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf87b7cda</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a44afd191516158ad944343dba0a3e</string>
+      </void>
+      <void method="put">
+       <string>fd_3741848cf614ae</string>
+       <double>0.04</double>
+      </void>
+      <void method="put">
+       <string>fd_373d65298205ba</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45858e54492f58264ec8b6cdc</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>赖慧峰</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37373cd7936d38</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf320d268</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373e3139fa8040</string>
+       <string>30601  业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_374184bb72edb2</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e31b1840cd2</string>
+       <double>4000.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_37373b877fafba</string>
+       <double>0.1</double>
+      </void>
+      <void method="put">
+       <string>fd_373728cc2778da</string>
+       <string>同意</string>
+      </void>
+      <void method="put">
+       <string>fd_3741846f60b456</string>
+       <double>120000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf87b7cda</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a44afd19256cefb47155647728bbf0</string>
+      </void>
+      <void method="put">
+       <string>fd_3741848cf614ae</string>
+       <double>0.11</double>
+      </void>
+      <void method="put">
+       <string>fd_373d65298205ba</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c40e6d9ad4ed618614fcfab213</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>程志</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37373cd7936d38</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf320d268</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373e3139fa8040</string>
+       <string>30601  业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_374184bb72edb2</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e31b1840cd2</string>
+       <double>10000.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_37373b877fafba</string>
+       <double>0.1</double>
+      </void>
+      <void method="put">
+       <string>fd_373728cc2778da</string>
+       <string>同意</string>
+      </void>
+      <void method="put">
+       <string>fd_3741846f60b456</string>
+       <double>117000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf87b7cda</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a44afd1921f1cb9a69b204ca282050</string>
+      </void>
+      <void method="put">
+       <string>fd_3741848cf614ae</string>
+       <double>0.09</double>
+      </void>
+      <void method="put">
+       <string>fd_373d65298205ba</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c457d4568ee6792d64dd29dd85</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>梁剑</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37373cd7936d38</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf320d268</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373e3139fa8040</string>
+       <string>30601  业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_374184bb72edb2</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e31b1840cd2</string>
+       <double>8000.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_37373b877fafba</string>
+       <double>0.03</double>
+      </void>
+      <void method="put">
+       <string>fd_373728cc2778da</string>
+       <string>同意</string>
+      </void>
+      <void method="put">
+       <string>fd_3741846f60b456</string>
+       <double>34000.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf87b7cda</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a44afd1924f092fdf836c48bfa4a56</string>
+      </void>
+      <void method="put">
+       <string>fd_3741848cf614ae</string>
+       <double>0.03</double>
+      </void>
+      <void method="put">
+       <string>fd_373d65298205ba</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c45753498e1f0b9e84104aab52</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>王勇</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37373cd7936d38</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf320d268</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373e3139fa8040</string>
+       <string>30601  业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_374184bb72edb2</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e31b1840cd2</string>
+       <double>2500.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>fd_37373b877fafba</string>
+       <double>0.02</double>
+      </void>
+      <void method="put">
+       <string>fd_373728cc2778da</string>
+       <string>同意</string>
+      </void>
+      <void method="put">
+       <string>fd_3741846f60b456</string>
+       <double>20500.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf87b7cda</string>
+       <string>2019年</string>
+      </void>
+      <void method="put">
+       <string>fdId</string>
+       <string>16a44afd19325cc367a7ed24772a45a3</string>
+      </void>
+      <void method="put">
+       <string>fd_3741848cf614ae</string>
+       <double>0.02</double>
+      </void>
+      <void method="put">
+       <string>fd_373d65298205ba</string>
+       <object class="java.util.HashMap">
+        <void method="put">
+         <string>id</string>
+         <string>1672a1c456dc143285a20364fca8d5ea</string>
+        </void>
+        <void method="put">
+         <string>name</string>
+         <string>谭孝龙</string>
+        </void>
+       </object>
+      </void>
+      <void method="put">
+       <string>fd_37373cd7936d38</string>
+       <double>8907551.0</double>
+      </void>
+      <void method="put">
+       <string>fd_373e4bf320d268</string>
+       <string>4月</string>
+      </void>
+      <void method="put">
+       <string>fd_373e3139fa8040</string>
+       <string>30601  业务招待费</string>
+      </void>
+      <void method="put">
+       <string>fd_374184bb72edb2</string>
+       <double>1.1467488575E8</double>
+      </void>
+      <void method="put">
+       <string>fd_373e31b1840cd2</string>
+       <double>2000.0</double>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>fd_37372851dc7648_index_</string>
+   <object class="java.util.HashMap">
+    <void method="put">
+     <string>fd_37373b877fafba</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373728cc2778da</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_3741846f60b456</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_373e4bf87b7cda</string>
+     <string>2019年</string>
+    </void>
+    <void method="put">
+     <string>fd_3741848cf614ae</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373d65298205ba</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_37373cd7936d38</string>
+     <double>0.01</double>
+    </void>
+    <void method="put">
+     <string>fd_373e4bf320d268</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373e3139fa8040</string>
+     <null/>
+    </void>
+    <void method="put">
+     <string>fd_373e31b1840cd2</string>
+     <double>0.0</double>
+    </void>
+    <void method="put">
+     <string>fd_374184bb72edb2</string>
+     <double>0.01</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

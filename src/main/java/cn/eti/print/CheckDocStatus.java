@@ -1,5 +1,6 @@
 package cn.eti.print;
 
+import lombok.extern.slf4j.Slf4j;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -8,6 +9,10 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -17,6 +22,7 @@ import java.util.List;
  * @author wqh
  * @date 2019-7-11
  */
+@Slf4j
 public class CheckDocStatus extends QuartzJobBean {
 
 
@@ -41,6 +47,13 @@ public class CheckDocStatus extends QuartzJobBean {
         System.out.println("****************");
         System.out.println(new Date().toLocaleString());
         System.out.println("****************");
+//https://stackoverflow.com/questions/2382532/how-can-i-get-the-sql-of-a-preparedstatement
+        // get sql statement from preparedStatement
+        //((OraclePreparedStatementWrapper) preparedStatement).getOriginalSql();
+
+
+
+
 //
 //        String selectEkpString = "select s.fd_name,s.fd_id  as FDID,e.* from sys_org_element s ,ekp_16be562dfabd8867cded e where s.fd_id = e.fd_shenQingRen1";
 //        Connection con = null;
@@ -151,7 +164,14 @@ public class CheckDocStatus extends QuartzJobBean {
 //			}
 //		}
 
-
+    public  PreparedStatement prepareStatement(Connection connection, String sql, Object... values) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement(sql);
+        for (int i = 0; i < values.length; i++) {
+            preparedStatement.setObject(i + 1, values[i]);
+        }
+        log.debug(sql + " " + Arrays.asList(values));
+        return preparedStatement;
+    }
 
     /**
      * 解析extend_data_xml中的xml节点，根据指定的节点获得值

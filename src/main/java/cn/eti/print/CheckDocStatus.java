@@ -1,190 +1,131 @@
 package cn.eti.print;
 
-import org.dom4j.Document;
-import org.dom4j.DocumentException;
-import org.dom4j.DocumentHelper;
-import org.dom4j.Element;
+import cn.eti.print.util.RedisUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.quartz.JobExecutionContext;
-import org.quartz.JobExecutionException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.scheduling.quartz.QuartzJobBean;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Date;
-import java.util.List;
-
-//import java.util.List;
 
 /**
  * @author wqh
  * @date 2019-7-11
  */
+@Slf4j
 public class CheckDocStatus extends QuartzJobBean {
 
+    @Autowired
+    private RedisUtil redisUtil;
 
-//    @Autowired
-//	@Qualifier("primaryJdbcTemplate")
-//    protected JdbcTemplate jdbcTemplate1;
 
-//	@Autowired
-//	@Qualifier("secondaryJdbcTemplate")
-//	protected JdbcTemplate jdbcTemplate2;
+    @Autowired
+    @Qualifier("primaryJdbcTemplate")
+    protected JdbcTemplate jdbcTemplate1;
+
+    @Autowired
+    @Qualifier("secondaryJdbcTemplate")
+    protected JdbcTemplate jdbcTemplate2;
 
 
     public CheckDocStatus() {
         super();
     }
 
-    @SuppressWarnings("deprecation")
     @Override
-    protected void executeInternal(JobExecutionContext arg0)
-            throws JobExecutionException {
-
-        System.out.println("****************");
-        System.out.println(new Date().toLocaleString());
-        System.out.println("****************");
-//
-//        String selectEkpString = "select s.fd_name,s.fd_id  as FDID,e.* from sys_org_element s ,ekp_16be562dfabd8867cded e where s.fd_id = e.fd_shenQingRen1";
-//        Connection con = null;
-//        PreparedStatement preparedStatement = null;
+    @Transactional
+    protected void executeInternal(JobExecutionContext arg0) {
+//        String templateSql = "select * from km_review_main where fd_template_id='16a0a0d89f5930578903eca436e9103f' and (doc_status  = '30' or doc_status = '20')";
+//        List<Map<String, Object>> maps1 = jdbcTemplate1.queryForList(templateSql);
 //        try {
-//            Class.forName("oracle.jdbc.driver.OracleDriver");
-//            con = DriverManager.getConnection("jdbc:oracle:thin:@//192.168.0.202:1521/topprod", "eti_sz01",
-//                    "Eti2019etI04");
+//            for (Map<String, Object> m : maps1) {
+//                String doc_status = (String) m.get("doc_status");
+//                log.info("doc_status:----" + doc_status);
+//                String fd_id = (String) m.get("fd_id");
+//                log.info("fd_id---" + fd_id);
+//                Set<String> res = redisUtil.smembers(fd_id + doc_status);
+//                log.info(res.toString());
+//                if (res.size()<=0) {
+//                    log.info("in -----");
+//                    // 如果redis中有这个值就不管
+//                    //如果在redis中有这个值，而且状态不是一样的话就update，也走这个地方
+//                    //没有就把值先存到oracle中，然后加到redis中
 //
-//            List<Map<String, Object>> list = jdbcTemplate1.queryForList(selectEkpString);
-//            for (Map<String, Object> map : list) {
-//                Object fd_shenQingDanJuBianHao = map.get("fd_shenQingDanJuBianHao");
-//                System.out.println(fd_shenQingDanJuBianHao);
-//                Object fd_baoXiaoRenBenYueYuS = map.get("fd_baoXiaoRenBenYueYuS");
-//                Object FDID = map.get("FDID");
-//                Random random = new Random(100);
-//                int rand = random.nextInt();
-//                System.out.println(FDID);
-//                String sql = "\n" +
-//                        "select fd_name from sys_org_element where fd_id = (select fd_parentid from sys_org_element where fd_id='" + FDID + "') ";
-//                List<Map<String, Object>> maps = jdbcTemplate1.queryForList(sql);
-//                Object o = maps.get(0).get("fd_name");
-//                System.out.println(o);
-//                String sql1 = " insert into  tc_oat_file(tc_oat000,tc_oat001,tc_oat003,tc_oat005,tc_oat007,tc_oatud001) values ('1','"+FDID+System.currentTimeMillis()+"','"+o+"','"+fd_shenQingDanJuBianHao+"','1','"+fd_baoXiaoRenBenYueYuS+"')";
-//                System.out.println(sql1);
-//                if (con != null) {
+//                    if (doc_status.equals("30")) {
+//                        //通过
+//                        String passsql = "select * from ekp_16be562dfabd8867cded main ,ekp_16be562dfab95078953a se ,km_review_main re \n" +
+//                                " where  se.fd_parent_id = main.fd_id and re.fd_id = main.fd_id and main.fd_id='" + fd_id + "'";
+//                        List<Map<String, Object>> forList = jdbcTemplate1.queryForList(passsql);
+//                        for (Map<String, Object> m1 : forList) {
+//                            Object fd_zhaiYaoShuoMing = m1.get("fd_zhaiYaoShuoMing") == null ? "" : m1.get("fd_zhaiYaoShuoMing").toString();//摘要说明
+//                            Object fd_shenQingRen1 = m1.get("fd_shenQingRen1");//申请人fdid
+//                            Object fd_feiYongBaoXiaoRen3 = m1.get("fd_feiYongBaoXiaoRen3");//申请报销人
+////                            Object fd_baoXiaoRenBenYu = m1.get("fd_baoXiaoRenBenYu");//预算金额
+//                            Object fd_number = m1.get("fd_number");//OA单号
+//                            String fd_gangWei = m1.get("fd_gangWei") == null ? "" : m1.get("fd_gangWei").toString();
+//                            Object fd_shenQingDanJuBianHao = m1.get("fd_shenQingDanJuBianHao") == null ? "" : m1.get("fd_shenQingDanJuBianHao").toString();//danju
+//                            Object fd_yuSuanNianFen3 = m1.get("fd_yuSuanNianFen3");
+//                            Object fd_yuSuanYueFen3 = m1.get("fd_yuSuanYueFen3");
+//                            Object fd_yuSuanXiangMu3 = m1.get("fd_yuSuanXiangMu3");//预算项目
+//                            Object fd_baoXiaoRenBenYu = m1.get("fd_baoXiaoRenBenYu");//报销人本月实际报销
+//                            String budget = fd_yuSuanNianFen3.toString() + fd_yuSuanYueFen3.toString(); //预算年月
+//                            String sql = "select * from sys_org_element where fd_id='" + fd_shenQingRen1 + "'";
+//                            List<Map<String, Object>> maps = jdbcTemplate1.queryForList(sql);
+//                            Object o = "";
+//                            if (maps.size() > 0) {
+//                                o = maps.get(0).get("fd_name");
+//                            }
+//                            String sql1 = " insert into  tc_oat_file(tc_oat000,tc_oat001,tc_oat003,tc_oat004 ," +
+//                                    "tc_oat005,tc_oat006,tc_oat007,tc_oat008,tc_oatud001,tc_oat010,tc_oat011,tc_oat009) values " +
+//                                    "('1','" + UUID.randomUUID().toString() + System.currentTimeMillis() + "','" + o.toString() + "','" + fd_gangWei + "','" +
+//                                    "" + fd_shenQingDanJuBianHao + "'," + fd_baoXiaoRenBenYu.toString() + ",'1','" + fd_zhaiYaoShuoMing + "','" + fd_yuSuanXiangMu3 + "'," + fd_yuSuanNianFen3.toString().substring(0, 4) + "," + fd_yuSuanYueFen3.toString().replace("月", "") + ",'" + fd_number + "')";
+//                            log.info(sql1);
+//                            jdbcTemplate2.update(sql1);
+//                            redisUtil.sadd(fd_id + doc_status, fd_id + doc_status);
+//                            redisUtil.persist(fd_id+doc_status);
 //
-//                    preparedStatement = con.prepareStatement(sql1);
-//                    //preparedStatement.setString(1,"1");
-//                    //preparedStatement.setObject(2,System.currentTimeMillis());
-//                    //preparedStatement.setObject(3,new Date());
-//                    //preparedStatement.setObject(4,o);
-//                    //preparedStatement.setObject(5,fd_shenQingDanJuBianHao);
-//                    // preparedStatement.setObject(6,'1');
-//                    //preparedStatement.setObject(7,fd_baoXiaoRenBenYueYuS);
-//                    preparedStatement.execute(sql1);
+//                        }
 //
 //
-//                } else {
-//                    System.out.println(con + "数据连接为空");
+//                    } else if (doc_status.equals("20")) {
+//                        String passsql = "select * from ekp_16be562dfabd8867cded main ,ekp_16be562dfab7ee4c07a3 se ,km_review_main re \n" +
+//                                " where  se.fd_parent_id = main.fd_id and re.fd_id = main.fd_id and main.fd_id='" + fd_id + "'";
+//                        List<Map<String, Object>> forList = jdbcTemplate1.queryForList(passsql);
+//                        for (Map<String, Object> m1 : forList) {
+//                            Object fd_yuSuanNianFen = m1.get("fd_yuSuanNianFen");
+//                            Object fd_yuSuanYueFen = m1.get("fd_yuSuanYueFen");
+//                            Object fd_gangWei = m1.get("fd_gangWei");//OA单号
+////                            String yearAndMonth = fd_yuSuanNianFen.toString()+ fd_yuSuanYueFen.toString();//年月
+//                            Object fd_yuSuanXiangMu = m1.get("fd_yuSuanXiangMu");//预算项目
+//                            Object fd_yuSuanShenQingRen = m1.get("fd_yuSuanShenQingRen");//预算申请人
+//                            Object fd_baoXiaoRenBenYueYu = m1.get("fd_baoXiaoRenBenYueYu");//报销本月预算金额
+//                            Object fd_shenQingDanJuBianHao = m1.get("fd_shenQingDanJuBianHao");
+//                            Object fd_number = m1.get("fd_number");//OA单号
+//                            String sql = "select * from sys_org_element where fd_id='" + fd_yuSuanShenQingRen + "'";
+//                            List<Map<String, Object>> maps = jdbcTemplate1.queryForList(sql);
+//                            Object o = maps.get(0).get("fd_name");
+//                            log.info(o.toString());
+//
+//                            String sql1 = " insert into  tc_oat_file(tc_oat000,tc_oat001,tc_oat003,tc_oat004 ," +
+//                                    "tc_oat005,tc_oat006,tc_oat007,tc_oat008,tc_oatud001,tc_oat010,tc_oat011,tc_oat009) values " +
+//                                    "('1','" + UUID.randomUUID().toString() + System.currentTimeMillis() + "','" + o.toString() + "','" + fd_gangWei + "','" +
+//                                    "" + fd_shenQingDanJuBianHao + "'," + fd_baoXiaoRenBenYueYu.toString() + ",'1','" + "','" + fd_yuSuanXiangMu + "'," + fd_yuSuanNianFen.toString().substring(0, 4) + "," + fd_yuSuanYueFen.toString().replace("月", "") + ",'" + fd_number + "')";
+//                            jdbcTemplate2.update(sql1);
+//                            redisUtil.sadd(fd_id + doc_status, fd_id + doc_status);
+//                            redisUtil.persist(fd_id + doc_status);
+//                            log.info(sql1);
+//
+//                        }
+//
+//                    }
+//
 //                }
-////			String filed = "";
-////			try {
-////				filed = getXmlFieldData(xmlval, "fd_3743154ea0d3c8");
-////				//OA单号
-////				String fd_373c0c155d1ca8 = getXmlFieldData(xmlval,"fd_373c0c155d1ca8");
-//
-//
 //            }
 //        } catch (Exception e) {
-//            throw new RuntimeException(e);
-//        } finally {
-//            try {
-//                if (preparedStatement != null) {
-//                    preparedStatement.close();
-//                }
-//            } catch (SQLException e) {
-//                throw new RuntimeException(e);
-//            }
-//            try {
-//                if (con != null) {
-//                    con.close();
-//                }
-//            } catch (SQLException e) {
-//                throw new RuntimeException(e);
-//            }
+//            e.printStackTrace();
 //        }
-
-
-//			jdbcTemplate2.update(sql);
-
-    }
-//		DataSet dataSet = null;
-//		DataSet dataSet2 = null;
-//		ResultSet rs = null;
-//		try {
-////			dataSet = new DataSet("HRDB");
-////			rs = dataSet.executeQuery(selectEkpString);
-//			String xml = "";
-//			while (rs.next()) {
-//				xml = rs.getString("extend_data_xml");
-//				String filed = getXmlFieldData(xml, "fd_3291c926b9940e");
-//				String sql = "insert into insert into tc_oat_file(tc_oat000,tc_oat001,tc_oatud001) values (1,'"
-//						+ System.currentTimeMillis() + "'," + filed + ")";
-//				dataSet2 = new DataSet("ERPZSQ");
-//				dataSet2.executeUpdate(sql);
 //
-//				// String htje = getXmlFieldData(xml, "fd_36c5222ad99932");
-//				// dataParser.setFieldValue(model, "fd_371bbe525e4964", htje);
-//			}
-//
-//		} catch (Exception e) {
-//			throw new RuntimeException("数据库连接失败" + e);
-//		} finally {
-//			if (rs != null) {
-//				try {
-//					rs.close();
-//				} catch (SQLException e) {
-//					// TODO Auto-generated catch block
-//					throw new RuntimeException("关闭结果集失败" + e);
-//				}
-//			}
-//			if (dataSet != null) {
-//				dataSet.close();
-//			}
-//			if (dataSet2 != null) {
-//				dataSet2.close();
-//			}
-//		}
-
-
-
-    /**
-     * 解析extend_data_xml中的xml节点，根据指定的节点获得值
-     *
-     * @param xmlStr xml字符串
-     * @param field  节点id
-     * @return 节点值
-     * @throws DocumentException
-     */
-    public String getXmlFieldData(String xmlStr, String field)
-            throws DocumentException {
-
-        Document document = DocumentHelper.parseText(xmlStr);
-
-        Element javaelement = document.getRootElement();
-
-        List<Element> objelements = javaelement.elements();
-
-        List<Element> voidelement = objelements.get(0).elements();
-
-        String elementval = "";
-
-        for (Element voids : voidelement) {
-
-            List<Element> strelement = voids.elements();
-
-            if (strelement.get(0).getText().equals(field)) {
-                elementval = strelement.get(1).getText();
-                break;
-            }
-        }
-
-        return elementval;
-    }
-
+   }
 }

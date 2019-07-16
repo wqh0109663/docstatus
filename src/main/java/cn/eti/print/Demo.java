@@ -20,31 +20,9 @@ public class Demo {
     public static void main(String[] args) throws IOException, DocumentException {
 
         InputStream inputStream = new FileInputStream("aaa.xml");
-        String theString = IOUtils.toString(inputStream);
+        String theString = IOUtils.toString(inputStream,"GBK");
         System.out.println(theString);
-        Document document = DocumentHelper.parseText(theString);
-
-        Element javaelement = document.getRootElement();
-        String name = javaelement.getName();
-        System.out.println(name);
-        List<Element> objelements = javaelement.elements();
-        List<Element> voidelement = objelements.get(0).elements();
-
-        String elementval = "";
-        for (int i = 0 ; i < voidelement.size();i++) {
-
-            List<Element> strelement = voidelement.get(i).elements();
-
-            if (strelement.get(0).getText().equals("fd_373c0c03939866")) {
-                List<Element> elements = strelement.get(1).elements();
-                List<Element> elements1 = elements.get(1).elements();
-                String fd_373c0c03939866 = elements1.get(1).getText();//申请部门
-                System.out.println(fd_373c0c03939866);
-            } else if (strelement.get(0).getText().equals("fd_373c0c155d1ca8")) {
-                String fd_373c0c155d1ca8 = strelement.get(1).getText();
-                System.out.println(fd_373c0c155d1ca8);
-            }
-        }
+        getXmlFieldData(theString,"fd_373bc8ca062a22");
 
         //String fd_373c0c155d1ca8 = getXmlFieldData(theString, "fd_373c0c155d1ca8");//OA单号
 //        //String fd_373c0bf271de26 = getXmlFieldData(theString, "fd_373c0bf271de26");//申请人
@@ -60,6 +38,20 @@ public class Demo {
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /**
      * 解析extend_data_xml中的xml节点，根据指定的节点获得值
@@ -84,18 +76,7 @@ public class Demo {
 
             List<Element> strelement = voids.elements();
 
-            if (strelement.get(0).getText().equals(field)) {
-                List<Element> elements = strelement.get(1).elements();
-                if (elements.size() > 0) {//hashmap
-                    //for (Iterator<Element> iterator = elements.iterator(); iterator.hasNext();)
-                    //List<Element> elements1 = elements.get(1).elements();
-                    //list.add(elements1.get(1).getText());
-                }else {//直接有值得
-                    elementval = strelement.get(1).getText();
-                    list.add(elementval);
-                    break;
-                }
-            }
+            depth(strelement,field);
         }
         return list;
     }
@@ -104,39 +85,43 @@ public class Demo {
        return element.elements().size() > 0;
     }
 
-    private static List depth(List<Element> strelement,String field) {
-        ArrayList list = new ArrayList();
-        if (strelement.size() == 0) {
+    private static List depth(List<Element> elementList,String field) {
+        if (elementList.size() == 0) {
             return null;
         }
-        for (int i = 0; i < strelement.size(); i++) {
+        ArrayList list = new ArrayList();
+        for (int i = 0; i < elementList.size(); i++) {
+
             //当前节点中含有那个字段
-            if (strelement.get(i).getText().equals(field)) {
-                List attributes = strelement.get(i + 1).attributes();
+            if (elementList.get(i).getText().equals(field)) {
+                List attributes = elementList.get(i + 1).attributes();
                 if (attributes.size() > 0) {
-                    boolean equals = attributes.get(0).equals("java.util.ArrayList");
-                    if (equals) {
-                        List<Element> elements1 = strelement.get(i+1).elements();
+                    if (attributes.get(0).equals("java.util.ArrayList")) {
+                        List elements1 = elementList.get(i+1).elements();
+                        if (elements1.size() > 0 && elements1.get(0) instanceof Element) {
+                            Object o = elements1.get(0);
+                            System.out.println();
+                        }
                         for (int j = 0; j < elements1.size(); j++) {
-                            List<Element> elements2 = elements1.get(j).elements();
-                            List attributes1 = elements2.get(0).attributes();
-                            if (attributes1.size() > 0 && attributes1.get(0).equals("java.util.HashMap")) {
-                               // elements2.get(1).elements()
-                            }
+//                            List<Element> elements2 = elements1.get(j).elements();
+//                            List attributes1 = elements2.get(0).attributes();
+//                            if (attributes1.size() > 0 && attributes1.get(0).equals("java.util.HashMap")) {
+//                               // elements2.get(1).elements()
+//                            }
 
                         }
                         //return depth(elements,field);
                     } else if (attributes.get(0).equals("java.util.HashMap")) {
-                            return strelement.get(i+1).elements();
+                            return elementList.get(i+1).elements();
                     }
-                    List elements = strelement.get(i + 1).elements();
+                    List elements = elementList.get(i + 1).elements();
                     return depth(elements, field);
                 } else {
-                    String text = strelement.get(i + 1).getText();
+                    String text = elementList.get(i + 1).getText();
                     list.add(text);
                 }
-            } else {//不包含调用自身看子节点中是否包含
-                return depth(strelement.get(i).elements(),field);
+            } else if (elementList.get(i+1).getName().equals("object")){
+
             }
         }
 

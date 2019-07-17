@@ -37,7 +37,7 @@ public class CheckDocStatus extends QuartzJobBean {
     @Override
     @Transactional
     protected void executeInternal(JobExecutionContext arg0) {
-        System.out.println("CheckDocStatus ----------------------");
+        System.out.println("CheckDocStatus --------------11--------");
 //        String templateSql = "select * from km_review_main where fd_template_id='16a0a0d89f5930578903eca436e9103f' and (doc_status  = '30' or doc_status = '20')";
 //        List<Map<String, Object>> maps1 = jdbcTemplate1.queryForList(templateSql);
 //        try {

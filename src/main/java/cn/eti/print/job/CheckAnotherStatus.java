@@ -11,11 +11,8 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 public class CheckAnotherStatus extends QuartzJobBean {
     @Override
     protected void executeInternal(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        System.out.println("CheckAnotherStatus execute ...."+System.currentTimeMillis());
-        System.out.println("CheckAnotherStatus execute ...."+System.currentTimeMillis());
-        System.out.println("CheckAnotherStatus execute ...."+System.currentTimeMillis());
-        System.out.println("CheckAnotherStatus execute ...."+System.currentTimeMillis());
-        System.out.println("CheckAnotherStatus execute ...."+System.currentTimeMillis());
+        System.out.println("CheckAnotherStatus execute ...2."+System.currentTimeMillis());
+
 
     }
 }

@@ -1,4 +1,4 @@
-package cn.eti.print;
+package cn.eti.print.conf;
 
 import cn.eti.print.job.CheckAnotherStatus;
 import cn.eti.print.job.CheckDocStatus;

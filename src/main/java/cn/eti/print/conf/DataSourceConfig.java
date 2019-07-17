@@ -1,4 +1,4 @@
-package cn.eti.print;
+package cn.eti.print.conf;
 
 /**
  * @author wqh

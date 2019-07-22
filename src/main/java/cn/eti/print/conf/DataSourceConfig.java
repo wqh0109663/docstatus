@@ -4,6 +4,8 @@ package cn.eti.print.conf;
  * @author wqh
  * @date 2019-7-11
  */
+
+import com.alibaba.druid.pool.DruidDataSource;
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
@@ -45,8 +47,8 @@ public class DataSourceConfig {
     @Qualifier("secondaryDataSource")
     @Bean
     @ConfigurationProperties("app.datasource.second.configuration")
-    public DataSource secondDataSource() {
-        return secondDataSourceProperties().initializeDataSourceBuilder().build();
+    public DruidDataSource secondDataSource() {
+        return secondDataSourceProperties().initializeDataSourceBuilder().type(DruidDataSource.class).build();
     }
 
     @Bean(name = "primaryJdbcTemplate")
